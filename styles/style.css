@@ -26,3 +26,13 @@ html {
   object-fit: cover;
   object-position: center;
 }
+
+.page__heading { 
+  z-index: 1;
+  max-width: 739px;
+  margin: 0 auto;
+  font-size: 136px;
+  letter-spacing: 3.5px;
+  text-align: center;
+  text-transform: uppercase;
+}
