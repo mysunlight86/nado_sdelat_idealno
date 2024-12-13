@@ -18,6 +18,15 @@ html {
   font-family: Raleway, sans-serif;
 }
 
+.page::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-color: #fff;
+  opacity: 0.3;
+}
+
 .page__video {
   position: absolute;
   inset: 0;
@@ -35,4 +44,14 @@ html {
   letter-spacing: 3.5px;
   text-align: center;
   text-transform: uppercase;
+}
+
+.page__heading::after {
+  content: '*';
+  position: relative;
+}
+
+.page__heading:hover {
+  color: #4c4c4c;
+  cursor: default;
 }
